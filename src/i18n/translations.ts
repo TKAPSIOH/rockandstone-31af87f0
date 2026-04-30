@@ -95,7 +95,7 @@ export const translations = {
       },
       legacy: {
         title: "The building",
-        description: "Palazzo di Meteora\nOld days charm meets modern luxury.\n\n🏠 Smart & Seamless Living\nClimate Control: Advanced home automation for the perfect temperature year-round.\n\nConnectivity: High-speed, seamless Wi-Fi throughout the building.\n\nEffortless Stay: Integrated smart systems designed for your convenience.\n\n🛡️ Your Safety First\nSecure Environment: 24/7 camera monitoring of all entrances and common areas.\n\nFire Safety: Equipped with state-of-the-art fire protection and safety systems.\n\n✨ Premium Features\nSpacious Design: Generous floor plans with room to stretch out and relax.\n\nPrime Location: In the heart of the city—everything is within walking distance.\n\nPrivate Parking: Free dedicated parking is available at the rear of the building.",
+        description: "Rock & Stone\nOld days charm meets modern luxury.\n\n🏠 Smart & Seamless Living\nClimate Control: Advanced home automation for the perfect temperature year-round.\n\nConnectivity: High-speed, seamless Wi-Fi throughout the building.\n\nEffortless Stay: Integrated smart systems designed for your convenience.\n\n🛡️ Your Safety First\nSecure Environment: 24/7 camera monitoring of all entrances and common areas.\n\nFire Safety: Equipped with state-of-the-art fire protection and safety systems.\n\n✨ Premium Features\nSpacious Design: Generous floor plans with room to stretch out and relax.\n\nPrime Location: In the heart of the city—everything is within walking distance.\n\nPrivate Parking: Free dedicated parking is available at the rear of the building.",
       },
     },
     
