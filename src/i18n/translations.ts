@@ -43,7 +43,7 @@ export const translations = {
         network: "Network",
         password: "Password",
         networkName: "COSMOTE",
-        passwordValue: "90797125",
+        passwordValue: "panais1971",
       },
       appliances: {
         title: "Appliances",
@@ -327,7 +327,7 @@ export const translations = {
         network: "Δίκτυο",
         password: "Κωδικός",
         networkName: "COSMOTE",
-        passwordValue: "90797125",
+        passwordValue: "panais1971",
       },
       appliances: {
         title: "Συσκευές",
