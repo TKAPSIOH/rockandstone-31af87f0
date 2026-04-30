@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Wifi, Tv, Flame, Snowflake, Clock, Shield, Home, MapPin, Mountain, Compass, Phone, ShoppingCart, ExternalLink, Lightbulb, Map, Heart, MessageCircle } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import LanguageToggle from '@/components/LanguageToggle';
-import liviaImage from '@/assets/livia.jpg';
+import houseHeroBedroomImage from '@/assets/house-hero-bedroom.jpg';
 import liviaBuildingImg from '@/assets/livia-building.jpg';
 import liviaActivitiesImg from '@/assets/livia-activities.jpg';
 import liviaExploreImg from '@/assets/livia-explore.jpg';
@@ -55,7 +55,7 @@ const ApartmentDetail: React.FC = () => {
 
       {/* Hero Section */}
       <section className="relative h-64 sm:h-80 overflow-hidden">
-        <img src={liviaImage} alt={apartment.name} className="absolute inset-0 w-full h-full object-cover" />
+        <img src={houseHeroBedroomImage} alt={`${apartment.name} bedroom`} className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
         
         {/* Title overlay */}
