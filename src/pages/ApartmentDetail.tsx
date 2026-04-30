@@ -1,31 +1,21 @@
 import React from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Wifi, Tv, Flame, Snowflake, Clock, Shield, Home, MapPin, Mountain, Compass, Phone, ShoppingCart, ExternalLink, Lightbulb, Map } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { ArrowLeft, Wifi, Tv, Flame, Snowflake, Clock, Shield, Home, MapPin, Mountain, Compass, Phone, ShoppingCart, ExternalLink, Lightbulb, Map, Heart, MessageCircle } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import LanguageToggle from '@/components/LanguageToggle';
 import liviaImage from '@/assets/livia.jpg';
-import maximaImage from '@/assets/maxima.jpg';
 import liviaBuildingImg from '@/assets/livia-building.jpg';
 import liviaActivitiesImg from '@/assets/livia-activities.jpg';
 import liviaExploreImg from '@/assets/livia-explore.jpg';
 import liviaManualImg from '@/assets/livia-manual.jpg';
-import maximaManualImg from '@/assets/maxima-manual.jpg';
-import maximaBuildingImg from '@/assets/maxima-building.jpg';
-import maximaActivitiesImg from '@/assets/maxima-activities.jpg';
-import maximaExploreImg from '@/assets/maxima-explore.jpg';
+import iliannaImage from '@/assets/ilianna.jpg';
 import SectionBanner from '@/components/SectionBanner';
 const ApartmentDetail: React.FC = () => {
-  const {
-    id
-  } = useParams<{
-    id: 'livia' | 'maxima';
-  }>();
   const navigate = useNavigate();
   const {
     t
   } = useLanguage();
-  const apartment = id === 'livia' ? t.selection.livia : t.selection.maxima;
-  const isMaxima = id === 'maxima';
+  const apartment = t.selection.livia;
   const navItems = [{
     icon: Home,
     label: t.nav.manual,
