@@ -15,7 +15,7 @@ const Welcome: React.FC = () => {
       <div className="absolute inset-0">
         <img
         src={heroRoomImage}
-        alt="Palazzo di Meteora stone living room"
+        alt="Rock & Stone stone living room"
         className="w-full h-full object-cover" />
 
         {/* Dark overlay for text readability */}

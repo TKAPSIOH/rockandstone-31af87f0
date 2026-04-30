@@ -2,7 +2,7 @@ export const translations = {
   en: {
     // Welcome Page
     welcome: {
-      title: "Palazzo di Meteora",
+      title: "Rock & Stone",
       subtitle: "Welcome!",
       motto: "Designed for comfort - Located for adventure!",
       cta: "Begin Your Stay",
@@ -90,12 +90,12 @@ export const translations = {
       title: "Building Amenities",
       parking: {
         title: "Private Parking",
-        description: "Palazzo di meteora offers a free and open parking area enough for many cars. You may enter directly the parking area driving through a small alley in the side of te building.",
+        description: "Rock & Stone offers a free and open parking area enough for many cars. You may enter directly the parking area driving through a small alley in the side of the building.",
         instructions: "IMPORTANT NOTE: We kindly expect from you not to block the alley, other guests may find it disturbing.",
       },
       legacy: {
         title: "The building",
-        description: "Palazzo di Meteora\nOld days charm meets modern luxury.\n\n🏠 Smart & Seamless Living\nClimate Control: Advanced home automation for the perfect temperature year-round.\n\nConnectivity: High-speed, seamless Wi-Fi throughout the building.\n\nEffortless Stay: Integrated smart systems designed for your convenience.\n\n🛡️ Your Safety First\nSecure Environment: 24/7 camera monitoring of all entrances and common areas.\n\nFire Safety: Equipped with state-of-the-art fire protection and safety systems.\n\n✨ Premium Features\nSpacious Design: Generous floor plans with room to stretch out and relax.\n\nPrime Location: In the heart of the city—everything is within walking distance.\n\nPrivate Parking: Free dedicated parking is available at the rear of the building.",
+        description: "Rock & Stone\nOld days charm meets modern luxury.\n\n🏠 Smart & Seamless Living\nClimate Control: Advanced home automation for the perfect temperature year-round.\n\nConnectivity: High-speed, seamless Wi-Fi throughout the building.\n\nEffortless Stay: Integrated smart systems designed for your convenience.\n\n🛡️ Your Safety First\nSecure Environment: 24/7 camera monitoring of all entrances and common areas.\n\nFire Safety: Equipped with state-of-the-art fire protection and safety systems.\n\n✨ Premium Features\nSpacious Design: Generous floor plans with room to stretch out and relax.\n\nPrime Location: In the heart of the city—everything is within walking distance.\n\nPrivate Parking: Free dedicated parking is available at the rear of the building.",
       },
     },
     
@@ -286,7 +286,7 @@ export const translations = {
   gr: {
     // Welcome Page
     welcome: {
-      title: "Palazzo di Meteora",
+      title: "Rock & Stone",
       subtitle: "Καλώς ήρθατε!",
       motto: "Σχεδιασμένο για άνεση - Τοποθετημένο για περιπέτεια!",
       cta: "Ξεκινήστε τη Διαμονή σας",
@@ -374,12 +374,12 @@ export const translations = {
       title: "Παροχές Κτιρίου",
       parking: {
         title: "Ιδιωτικό Πάρκινγκ",
-        description: "Το Palazzo di meteora προσφέρει δωρεάν και ανοιχτό χώρο στάθμευσης για πολλά αυτοκίνητα. Μπορείτε να εισέλθετε απευθείας στο πάρκινγκ οδηγώντας μέσα από ένα μικρό δρομάκι στο πλάι του κτιρίου.",
+        description: "Το Rock & Stone προσφέρει δωρεάν και ανοιχτό χώρο στάθμευσης για πολλά αυτοκίνητα. Μπορείτε να εισέλθετε απευθείας στο πάρκινγκ οδηγώντας μέσα από ένα μικρό δρομάκι στο πλάι του κτιρίου.",
         instructions: "ΣΗΜΑΝΤΙΚΗ ΣΗΜΕΙΩΣΗ: Παρακαλούμε να μην μπλοκάρετε το δρομάκι, καθώς μπορεί να ενοχλήσει άλλους επισκέπτες.",
       },
       legacy: {
         title: "Το κτίριο",
-        description: "Palazzo di Meteora\nΗ γοητεία του παρελθόντος συναντά τη σύγχρονη πολυτέλεια.\n\n🏠 Έξυπνη & Απρόσκοπτη Διαβίωση\nΈλεγχος Κλίματος: Προηγμένος οικιακός αυτοματισμός για την ιδανική θερμοκρασία όλο τον χρόνο.\n\nΣυνδεσιμότητα: Υψηλής ταχύτητας Wi-Fi σε όλο το κτίριο.\n\nΆνετη Διαμονή: Ενσωματωμένα έξυπνα συστήματα σχεδιασμένα για την ευκολία σας.\n\n🛡️ Η Ασφάλειά σας Πρώτα\nΑσφαλές Περιβάλλον: 24/7 παρακολούθηση με κάμερες σε όλες τις εισόδους και κοινόχρηστους χώρους.\n\nΠυρασφάλεια: Εξοπλισμένο με συστήματα πυροπροστασίας τελευταίας τεχνολογίας.\n\n✨ Premium Χαρακτηριστικά\nΕυρύχωρος Σχεδιασμός: Γενναιόδωρες κατόψεις με χώρο για χαλάρωση.\n\nΠρονομιακή Τοποθεσία: Στην καρδιά της πόλης—τα πάντα σε απόσταση περπατήματος.\n\nΙδιωτικό Πάρκινγκ: Δωρεάν αποκλειστικοί χώροι στάθμευσης στο πίσω μέρος του κτιρίου.",
+        description: "Rock & Stone\nΗ γοητεία του παρελθόντος συναντά τη σύγχρονη πολυτέλεια.\n\n🏠 Έξυπνη & Απρόσκοπτη Διαβίωση\nΈλεγχος Κλίματος: Προηγμένος οικιακός αυτοματισμός για την ιδανική θερμοκρασία όλο τον χρόνο.\n\nΣυνδεσιμότητα: Υψηλής ταχύτητας Wi-Fi σε όλο το κτίριο.\n\nΆνετη Διαμονή: Ενσωματωμένα έξυπνα συστήματα σχεδιασμένα για την ευκολία σας.\n\n🛡️ Η Ασφάλειά σας Πρώτα\nΑσφαλές Περιβάλλον: 24/7 παρακολούθηση με κάμερες σε όλες τις εισόδους και κοινόχρηστους χώρους.\n\nΠυρασφάλεια: Εξοπλισμένο με συστήματα πυροπροστασίας τελευταίας τεχνολογίας.\n\n✨ Premium Χαρακτηριστικά\nΕυρύχωρος Σχεδιασμός: Γενναιόδωρες κατόψεις με χώρο για χαλάρωση.\n\nΠρονομιακή Τοποθεσία: Στην καρδιά της πόλης—τα πάντα σε απόσταση περπατήματος.\n\nΙδιωτικό Πάρκινγκ: Δωρεάν αποκλειστικοί χώροι στάθμευσης στο πίσω μέρος του κτιρίου.",
       },
     },
     
