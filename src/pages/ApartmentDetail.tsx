@@ -61,12 +61,16 @@ const ApartmentDetail: React.FC = () => {
         {/* Title overlay */}
         <div className="absolute bottom-0 left-0 right-0 p-6">
           <div className="container mx-auto">
-            <span className="inline-block bg-accent text-accent-foreground px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-2">
-              {apartment.floor}
-            </span>
-            <h1 className="text-4xl sm:text-5xl font-semibold text-foreground font-sans">
-              {apartment.name}
-            </h1>
+            <div className="flex items-center gap-3">
+              <div className="flex items-center gap-1.5" aria-hidden="true">
+                <span className="w-3 h-3 rounded-full bg-accent" />
+                <span className="w-3 h-3 rounded-full bg-accent brightness-90" />
+                <span className="w-3 h-3 rounded-full bg-accent brightness-75" />
+              </div>
+              <h1 className="text-4xl sm:text-5xl font-semibold text-foreground font-sans">
+                {apartment.name}
+              </h1>
+            </div>
             <p className="font-medium mt-1 text-primary text-base inline-flex items-center gap-1.5 font-sans">
               <MapPin className="w-4 h-4 text-foreground" />
               {apartment.tagline}
