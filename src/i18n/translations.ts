@@ -95,7 +95,7 @@ export const translations = {
       },
       legacy: {
         title: "The building",
-        description: "Rock & Stone\nOld days charm meets modern luxury.\n\n🏠 Smart & Seamless Living\nClimate Control: Advanced home automation for the perfect temperature year-round.\n\nConnectivity: High-speed, seamless Wi-Fi throughout the building.\n\nEffortless Stay: Integrated smart systems designed for your convenience.\n\n🛡️ Your Safety First\nSecure Environment: 24/7 camera monitoring of all entrances and common areas.\n\nFire Safety: Equipped with state-of-the-art fire protection and safety systems.\n\n✨ Premium Features\nSpacious Design: Generous floor plans with room to stretch out and relax.\n\nPrime Location: In the heart of the city—everything is within walking distance.\n\nPrivate Parking: Free dedicated parking is available at the rear of the building.",
+        description: "Rock & Stone Old days charm meets modern luxury. 🏠 Smart & Seamless Living Climate Control: Advanced home automation for the perfect temperature year-round. Connectivity: High-speed, seamless Wi-Fi throughout the building. 🛡️ Your Safety First Secure Environment: 24/7 camera monitoring of all entrances and parking area. Fire Safety: Equipped with all legal fire protection and safety systems. ✨ Premium Features Spacious Design: Generous floor plans with room to stretch out and relax. Prime Location: In the heart of the old city, offering you a unique experience by living just under the rocks! Private Parking: Free dedicated parking is available at the rear of the building, 20m after the main entrance.",
       },
     },
     
@@ -379,7 +379,7 @@ export const translations = {
       },
       legacy: {
         title: "Το κτίριο",
-        description: "Rock & Stone\nΗ γοητεία του παρελθόντος συναντά τη σύγχρονη πολυτέλεια.\n\n🏠 Έξυπνη & Απρόσκοπτη Διαβίωση\nΈλεγχος Κλίματος: Προηγμένος οικιακός αυτοματισμός για την ιδανική θερμοκρασία όλο τον χρόνο.\n\nΣυνδεσιμότητα: Υψηλής ταχύτητας Wi-Fi σε όλο το κτίριο.\n\nΆνετη Διαμονή: Ενσωματωμένα έξυπνα συστήματα σχεδιασμένα για την ευκολία σας.\n\n🛡️ Η Ασφάλειά σας Πρώτα\nΑσφαλές Περιβάλλον: 24/7 παρακολούθηση με κάμερες σε όλες τις εισόδους και κοινόχρηστους χώρους.\n\nΠυρασφάλεια: Εξοπλισμένο με συστήματα πυροπροστασίας τελευταίας τεχνολογίας.\n\n✨ Premium Χαρακτηριστικά\nΕυρύχωρος Σχεδιασμός: Γενναιόδωρες κατόψεις με χώρο για χαλάρωση.\n\nΠρονομιακή Τοποθεσία: Στην καρδιά της πόλης—τα πάντα σε απόσταση περπατήματος.\n\nΙδιωτικό Πάρκινγκ: Δωρεάν αποκλειστικοί χώροι στάθμευσης στο πίσω μέρος του κτιρίου.",
+        description: "Rock & Stone Η γοητεία του παρελθόντος συναντά τη σύγχρονη πολυτέλεια. 🏠 Έξυπνη & Απρόσκοπτη Διαβίωση Έλεγχος Κλίματος: Προηγμένος οικιακός αυτοματισμός για την ιδανική θερμοκρασία όλο τον χρόνο. Συνδεσιμότητα: Υψηλής ταχύτητας Wi-Fi σε όλο το κτίριο. 🛡️ Η Ασφάλειά σας Πρώτα Ασφαλές Περιβάλλον: 24/7 παρακολούθηση με κάμερες σε όλες τις εισόδους και τον χώρο στάθμευσης. Πυρασφάλεια: Εξοπλισμένο με όλα τα νόμιμα συστήματα πυροπροστασίας και ασφάλειας. ✨ Premium Χαρακτηριστικά Ευρύχωρος Σχεδιασμός: Γενναιόδωρες κατόψεις με χώρο για χαλάρωση. Προνομιακή Τοποθεσία: Στην καρδιά της παλιάς πόλης, προσφέροντάς σας μια μοναδική εμπειρία διαμονής ακριβώς κάτω από τους βράχους! Ιδιωτικό Πάρκινγκ: Δωρεάν αποκλειστικός χώρος στάθμευσης στο πίσω μέρος του κτιρίου, 20μ μετά την κύρια είσοδο.",
       },
     },
     
