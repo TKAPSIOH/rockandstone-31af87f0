@@ -286,7 +286,7 @@ export const translations = {
   gr: {
     // Welcome Page
     welcome: {
-      title: "Palazzo di Meteora",
+      title: "Rock & Stone",
       subtitle: "Καλώς ήρθατε!",
       motto: "Σχεδιασμένο για άνεση - Τοποθετημένο για περιπέτεια!",
       cta: "Ξεκινήστε τη Διαμονή σας",
