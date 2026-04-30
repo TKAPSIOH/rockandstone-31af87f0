@@ -68,7 +68,7 @@ const ApartmentDetail: React.FC = () => {
               {apartment.name}
             </h1>
             <p className="font-medium mt-1 text-primary text-base inline-flex items-center gap-1.5">
-              <MapPin className="w-4 h-4 text-accent" />
+              <MapPin className="w-4 h-4 text-foreground" />
               {apartment.tagline}
             </p>
           </div>
