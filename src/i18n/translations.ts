@@ -22,7 +22,7 @@ export const translations = {
       livia: {
         name: "Rock & Stone",
         floor: "​",
-        tagline: "Agios Triados 22",
+        tagline: "Agios Triados 22, Old Kalabaka city",
         description: "Bright, airy, and grounded by beautiful natural stone elements, Livia offers a serene atmosphere for a truly relaxing stay. This apartment balances minimalist modern lines with warm, organic textures to create your perfect Mediterranean retreat.",
         features: ["Easy Ground Access", "Modern Design", "Cozy Atmosphere"],
       },
@@ -306,7 +306,7 @@ export const translations = {
       livia: {
         name: "Rock & Stone",
         floor: "​",
-        tagline: "Agios Triados 22",
+        tagline: "Agios Triados 22, Old Kalabaka city",
         description: "Φωτεινό, ευάερο και θεμελιωμένο σε όμορφα στοιχεία φυσικής πέτρας, το Livia προσφέρει μια γαλήνια ατμόσφαιρα για μια πραγματικά χαλαρωτική διαμονή. Αυτό το διαμέρισμα ισορροπεί τις μινιμαλιστικές μοντέρνες γραμμές με ζεστές, οργανικές υφές για να δημιουργήσει το ιδανικό σας μεσογειακό καταφύγιο.",
         features: ["Εύκολη Πρόσβαση", "Μοντέρνος Σχεδιασμός", "Ζεστή Ατμόσφαιρα"],
       },
