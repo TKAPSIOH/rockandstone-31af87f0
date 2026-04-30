@@ -232,7 +232,7 @@ const ApartmentDetail: React.FC = () => {
         </section>
 
         {/* Building Features Section */}
-        <SectionBanner image={isMaxima ? maximaBuildingImg : liviaBuildingImg} label={t.building.title} onClick={() => scrollToSection('building')} />
+        <SectionBanner image={liviaBuildingImg} label={t.building.title} onClick={() => scrollToSection('building')} />
         <section id="building" className="mb-16 scroll-mt-36">
 
           <div className="space-y-6">
@@ -254,7 +254,7 @@ const ApartmentDetail: React.FC = () => {
         </section>
 
         {/* Activities Section */}
-        <SectionBanner image={isMaxima ? maximaActivitiesImg : liviaActivitiesImg} label={t.explore.activities.title} onClick={() => scrollToSection('activities')} />
+        <SectionBanner image={liviaActivitiesImg} label={t.explore.activities.title} onClick={() => scrollToSection('activities')} />
         <section id="activities" className="mb-16 scroll-mt-36">
           <p className="text-muted-foreground text-center mb-8">{t.explore.activities.subtitle}</p>
 
@@ -293,7 +293,7 @@ const ApartmentDetail: React.FC = () => {
         </section>
 
         {/* Explore Section */}
-        <SectionBanner image={isMaxima ? maximaExploreImg : liviaExploreImg} label={t.explore.title} onClick={() => scrollToSection('explore')} />
+        <SectionBanner image={liviaExploreImg} label={t.explore.title} onClick={() => scrollToSection('explore')} />
         <section id="explore" className="scroll-mt-36">
           <p className="text-muted-foreground text-center mb-8">{t.explore.subtitle}</p>
 
