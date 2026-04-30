@@ -42,7 +42,7 @@ export const translations = {
         title: "WiFi Connection",
         network: "Network",
         password: "Password",
-        networkName: "TP-LINK-AP-3E9E",
+        networkName: "COSMOTE",
         passwordValue: "90797125",
       },
       appliances: {
@@ -326,7 +326,7 @@ export const translations = {
         title: "Σύνδεση WiFi",
         network: "Δίκτυο",
         password: "Κωδικός",
-        networkName: "TP-LINK-AP-3E9E",
+        networkName: "COSMOTE",
         passwordValue: "90797125",
       },
       appliances: {
