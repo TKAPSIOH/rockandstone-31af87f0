@@ -2,7 +2,7 @@ export const translations = {
   en: {
     // Welcome Page
     welcome: {
-      title: "Palazzo di Meteora",
+      title: "Rock & Stone",
       subtitle: "Welcome!",
       motto: "Designed for comfort - Located for adventure!",
       cta: "Begin Your Stay",
