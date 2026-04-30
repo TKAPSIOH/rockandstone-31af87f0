@@ -90,8 +90,8 @@ export const translations = {
       title: "Building Amenities",
       parking: {
         title: "Private Parking",
-        description: "Rock & Stone offers a free and open parking area enough for many cars. You may enter directly the parking area driving through a small alley in the side of the building.",
-        instructions: "IMPORTANT NOTE: We kindly expect from you not to block the alley, other guests may find it disturbing.",
+        description: "Rock & Stone offers a free parking area enough for 2 cars. You may enter directly the parking area driving 20 meters after the house entrance.",
+        instructions: "IMPORTANT NOTE: We kindly expect from you not to block the alley, other residents may find it disturbing.",
       },
       legacy: {
         title: "The building",
@@ -374,8 +374,8 @@ export const translations = {
       title: "Παροχές Κτιρίου",
       parking: {
         title: "Ιδιωτικό Πάρκινγκ",
-        description: "Το Rock & Stone προσφέρει δωρεάν και ανοιχτό χώρο στάθμευσης για πολλά αυτοκίνητα. Μπορείτε να εισέλθετε απευθείας στο πάρκινγκ οδηγώντας μέσα από ένα μικρό δρομάκι στο πλάι του κτιρίου.",
-        instructions: "ΣΗΜΑΝΤΙΚΗ ΣΗΜΕΙΩΣΗ: Παρακαλούμε να μην μπλοκάρετε το δρομάκι, καθώς μπορεί να ενοχλήσει άλλους επισκέπτες.",
+        description: "Το Rock & Stone προσφέρει δωρεάν χώρο στάθμευσης για 2 αυτοκίνητα. Μπορείτε να εισέλθετε απευθείας στο πάρκινγκ οδηγώντας 20 μέτρα μετά την είσοδο του σπιτιού.",
+        instructions: "ΣΗΜΑΝΤΙΚΗ ΣΗΜΕΙΩΣΗ: Παρακαλούμε να μην μπλοκάρετε το δρομάκι, καθώς μπορεί να ενοχλήσει άλλους κατοίκους.",
       },
       legacy: {
         title: "Το κτίριο",
