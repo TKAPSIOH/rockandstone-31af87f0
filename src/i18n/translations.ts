@@ -48,7 +48,7 @@ export const translations = {
       appliances: {
         title: "Appliances",
         items: [
-          "Smart TV with Netflix & streaming apps",
+          "Courtyard with view and privacy",
           "Fully equipped kitchen with espresso machine",
           "Washing machine, iron & hair dryer",
           "Underfloor heating & air conditioning",
@@ -332,7 +332,7 @@ export const translations = {
       appliances: {
         title: "Συσκευές",
         items: [
-          "Smart TV με Netflix & streaming εφαρμογές",
+          "Αυλή με θέα και ιδιωτικότητα",
           "Πλήρως εξοπλισμένη κουζίνα με μηχανή espresso",
           "Πλυντήριο ρούχων, σίδερο & πιστολάκι μαλλιών",
           "Ενδοδαπέδια θέρμανση & κλιματισμός",
