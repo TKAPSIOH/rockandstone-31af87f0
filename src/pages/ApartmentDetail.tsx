@@ -45,7 +45,7 @@ const ApartmentDetail: React.FC = () => {
       {/* Header */}
       <header className="sticky top-0 z-40 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <button onClick={() => navigate('/select')} className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+          <button onClick={() => navigate('/')} className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
             <ArrowLeft className="w-5 h-5" />
             <span className="text-sm font-medium">{t.nav.back}</span>
           </button>
@@ -55,7 +55,7 @@ const ApartmentDetail: React.FC = () => {
 
       {/* Hero Section */}
       <section className="relative h-64 sm:h-80 overflow-hidden">
-        <img src={isMaxima ? maximaImage : liviaImage} alt={apartment.name} className="absolute inset-0 w-full h-full object-cover" />
+        <img src={liviaImage} alt={apartment.name} className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
         
         {/* Title overlay */}
@@ -86,20 +86,8 @@ const ApartmentDetail: React.FC = () => {
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8 pb-32 max-w-3xl">
-        {/* Description */}
-        <div className="mb-12 text-center animate-fade-in">
-          <p className="text-muted-foreground leading-relaxed text-lg font-sans">
-            {apartment.description}
-          </p>
-          <div className="flex flex-wrap justify-center gap-2 mt-6">
-            {apartment.features.map((feature, index) => <span key={index} className="bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-medium">
-                {feature}
-              </span>)}
-          </div>
-        </div>
-
         {/* House Manual Section */}
-        <SectionBanner image={isMaxima ? maximaManualImg : liviaManualImg} label={t.manual.title} onClick={() => scrollToSection('manual')} />
+        <SectionBanner image={liviaManualImg} label={t.manual.title} onClick={() => scrollToSection('manual')} />
         <section id="manual" className="mb-16 scroll-mt-36">
 
           <div className="space-y-6">
