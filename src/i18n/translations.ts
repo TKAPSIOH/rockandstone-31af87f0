@@ -90,7 +90,7 @@ export const translations = {
       title: "Building Amenities",
       parking: {
         title: "Private Parking",
-        description: "Palazzo di meteora offers a free and open parking area enough for many cars. You may enter directly the parking area driving through a small alley in the side of te building.",
+        description: "Rock & Stone offers a free and open parking area enough for many cars. You may enter directly the parking area driving through a small alley in the side of the building.",
         instructions: "IMPORTANT NOTE: We kindly expect from you not to block the alley, other guests may find it disturbing.",
       },
       legacy: {
