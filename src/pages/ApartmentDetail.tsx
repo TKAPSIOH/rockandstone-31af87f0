@@ -91,6 +91,38 @@ const ApartmentDetail: React.FC = () => {
         <section id="manual" className="mb-16 scroll-mt-36">
 
           <div className="space-y-6">
+            {/* Arrival Notice */}
+            <div className="relative overflow-hidden rounded-2xl luxury-border bg-gradient-to-r from-accent/5 via-accent/10 to-accent/5 p-6 sm:p-8 animate-fade-in-up">
+              <div className="relative flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
+                <div className="flex-shrink-0">
+                  <div className="relative">
+                    <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden ring-4 ring-accent/30 shadow-lg">
+                      <img src={iliannaImage} alt="Ilianna" className="w-full h-full object-cover" />
+                    </div>
+                    <div className="absolute -bottom-1 -right-1 w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center">
+                      <Clock className="w-4 h-4 text-accent" />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <a href="https://wa.me/306987041237" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent hover:bg-gold-light text-accent-foreground px-5 py-2.5 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 font-medium text-sm mb-4">
+                    <MessageCircle className="w-5 h-5" />
+                    {t.selection.arrivalNotice.shareArrival}
+                  </a>
+                  <h3 className="font-display text-xl sm:text-2xl font-semibold text-foreground mb-3 flex items-center gap-2">
+                    {t.selection.arrivalNotice.title}
+                    <Heart className="w-5 h-5 text-accent fill-accent/30" />
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed mb-3">
+                    {t.selection.arrivalNotice.message}
+                  </p>
+                  <p className="text-foreground font-medium">
+                    {t.selection.arrivalNotice.closing}
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* WiFi */}
             <div className="bg-card rounded-2xl p-6 luxury-border luxury-shadow animate-fade-in-up">
               <div className="flex items-center gap-3 mb-4">
@@ -121,15 +153,9 @@ const ApartmentDetail: React.FC = () => {
               </div>
               <ul className="space-y-3">
                 {t.manual.appliances.items.map((item, index) => {
-                  let displayItem = item;
-                  if (isMaxima && item === "Underfloor heating & air conditioning") {
-                    displayItem = "Environmental friendly heating and 4 units of air conditioning";
-                  } else if (isMaxima && item === "Ενδοδαπέδια θέρμανση & κλιματισμός") {
-                    displayItem = "Φιλική προς το περιβάλλον θέρμανση και 4 μονάδες κλιματισμού";
-                  }
                   return <li key={index} className="flex items-start gap-3 text-muted-foreground font-sans">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                    {displayItem}
+                    {item}
                   </li>;
                 })}
               </ul>
@@ -148,11 +174,9 @@ const ApartmentDetail: React.FC = () => {
                     <h4 className="font-semibold font-sans">{t.manual.climate.heating.title}</h4>
                   </div>
                   <p className="text-muted-foreground text-sm font-sans">
-                    {isMaxima ? t.manual.climate.heating.description : (
-                      t.manual.climate.heating.description
+                    {t.manual.climate.heating.description
                         .replace('an eco heating system', 'an underfloor heating system')
-                        .replace('ενός οικολογικού συστήματος θέρμανσης', 'του συστήματος ενδοδαπέδιας θέρμανσης')
-                    )}
+                        .replace('ενός οικολογικού συστήματος θέρμανσης', 'του συστήματος ενδοδαπέδιας θέρμανσης')}
                   </p>
                 </div>
                 {/* Cooling */}
