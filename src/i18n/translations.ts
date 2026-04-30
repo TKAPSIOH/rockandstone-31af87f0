@@ -48,7 +48,7 @@ export const translations = {
       appliances: {
         title: "Appliances",
         items: [
-          "Courtyard with view and privacy",
+          "Courtyard with view and privacy, free parking",
           "Fully equipped kitchen with espresso machine",
           "Washing machine, iron & hair dryer",
           "Underfloor heating & air conditioning",
@@ -59,7 +59,7 @@ export const translations = {
         title: "Heating & Cooling",
         heating: {
           title: "Heating",
-          description: "Central heating during winter is available throughout an eco heating system. The only thing you have to do is to adjust the desired temperature in the control panel and press ok. This system produces also hot water 24h, when you just open the faucet, nothing more.",
+          description: "Central heating during winter is available throughout a 2-zone and strong heating system. The only thing you have to do is to adjust the desired temperature in the control panel and press ok. This system produces also hot water 24h, when you just open the faucet, nothing more.",
         },
         cooling: {
           title: "Cooling",
@@ -332,7 +332,7 @@ export const translations = {
       appliances: {
         title: "Συσκευές",
         items: [
-          "Αυλή με θέα και ιδιωτικότητα",
+          "Αυλή με θέα και ιδιωτικότητα, δωρεάν πάρκινγκ",
           "Πλήρως εξοπλισμένη κουζίνα με μηχανή espresso",
           "Πλυντήριο ρούχων, σίδερο & πιστολάκι μαλλιών",
           "Ενδοδαπέδια θέρμανση & κλιματισμός",
@@ -343,7 +343,7 @@ export const translations = {
         title: "Θέρμανση & Ψύξη",
         heating: {
           title: "Θέρμανση",
-          description: "Η κεντρική θέρμανση κατά τη διάρκεια του χειμώνα είναι διαθέσιμη μέσω ενός οικολογικού συστήματος θέρμανσης. Το μόνο που χρειάζεται να κάνετε είναι να ρυθμίσετε την επιθυμητή θερμοκρασία στον πίνακα ελέγχου και να πατήσετε ok. Αυτό το σύστημα παράγει επίσης ζεστό νερό 24 ώρες, όταν απλά ανοίγετε τη βρύση, τίποτα περισσότερο.",
+          description: "Η κεντρική θέρμανση κατά τη διάρκεια του χειμώνα είναι διαθέσιμη μέσω ενός ισχυρού συστήματος θέρμανσης 2 ζωνών. Το μόνο που χρειάζεται να κάνετε είναι να ρυθμίσετε την επιθυμητή θερμοκρασία στον πίνακα ελέγχου και να πατήσετε ok. Αυτό το σύστημα παράγει επίσης ζεστό νερό 24 ώρες, όταν απλά ανοίγετε τη βρύση, τίποτα περισσότερο.",
         },
         cooling: {
           title: "Ψύξη",
