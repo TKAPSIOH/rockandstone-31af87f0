@@ -1,31 +1,21 @@
 import React from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Wifi, Tv, Flame, Snowflake, Clock, Shield, Home, MapPin, Mountain, Compass, Phone, ShoppingCart, ExternalLink, Lightbulb, Map } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { ArrowLeft, Wifi, Tv, Flame, Snowflake, Clock, Shield, Home, MapPin, Mountain, Compass, Phone, ShoppingCart, ExternalLink, Lightbulb, Map, Heart, MessageCircle } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import LanguageToggle from '@/components/LanguageToggle';
 import liviaImage from '@/assets/livia.jpg';
-import maximaImage from '@/assets/maxima.jpg';
 import liviaBuildingImg from '@/assets/livia-building.jpg';
 import liviaActivitiesImg from '@/assets/livia-activities.jpg';
 import liviaExploreImg from '@/assets/livia-explore.jpg';
 import liviaManualImg from '@/assets/livia-manual.jpg';
-import maximaManualImg from '@/assets/maxima-manual.jpg';
-import maximaBuildingImg from '@/assets/maxima-building.jpg';
-import maximaActivitiesImg from '@/assets/maxima-activities.jpg';
-import maximaExploreImg from '@/assets/maxima-explore.jpg';
+import iliannaImage from '@/assets/ilianna.jpg';
 import SectionBanner from '@/components/SectionBanner';
 const ApartmentDetail: React.FC = () => {
-  const {
-    id
-  } = useParams<{
-    id: 'livia' | 'maxima';
-  }>();
   const navigate = useNavigate();
   const {
     t
   } = useLanguage();
-  const apartment = id === 'livia' ? t.selection.livia : t.selection.maxima;
-  const isMaxima = id === 'maxima';
+  const apartment = t.selection.livia;
   const navItems = [{
     icon: Home,
     label: t.nav.manual,
@@ -55,7 +45,7 @@ const ApartmentDetail: React.FC = () => {
       {/* Header */}
       <header className="sticky top-0 z-40 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <button onClick={() => navigate('/select')} className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+          <button onClick={() => navigate('/')} className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
             <ArrowLeft className="w-5 h-5" />
             <span className="text-sm font-medium">{t.nav.back}</span>
           </button>
@@ -65,7 +55,7 @@ const ApartmentDetail: React.FC = () => {
 
       {/* Hero Section */}
       <section className="relative h-64 sm:h-80 overflow-hidden">
-        <img src={isMaxima ? maximaImage : liviaImage} alt={apartment.name} className="absolute inset-0 w-full h-full object-cover" />
+        <img src={liviaImage} alt={apartment.name} className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
         
         {/* Title overlay */}
@@ -96,23 +86,43 @@ const ApartmentDetail: React.FC = () => {
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8 pb-32 max-w-3xl">
-        {/* Description */}
-        <div className="mb-12 text-center animate-fade-in">
-          <p className="text-muted-foreground leading-relaxed text-lg font-sans">
-            {apartment.description}
-          </p>
-          <div className="flex flex-wrap justify-center gap-2 mt-6">
-            {apartment.features.map((feature, index) => <span key={index} className="bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-medium">
-                {feature}
-              </span>)}
-          </div>
-        </div>
-
         {/* House Manual Section */}
-        <SectionBanner image={isMaxima ? maximaManualImg : liviaManualImg} label={t.manual.title} onClick={() => scrollToSection('manual')} />
+        <SectionBanner image={liviaManualImg} label={t.manual.title} onClick={() => scrollToSection('manual')} />
         <section id="manual" className="mb-16 scroll-mt-36">
 
           <div className="space-y-6">
+            {/* Arrival Notice */}
+            <div className="relative overflow-hidden rounded-2xl luxury-border bg-gradient-to-r from-accent/5 via-accent/10 to-accent/5 p-6 sm:p-8 animate-fade-in-up">
+              <div className="relative flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
+                <div className="flex-shrink-0">
+                  <div className="relative">
+                    <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden ring-4 ring-accent/30 shadow-lg">
+                      <img src={iliannaImage} alt="Ilianna" className="w-full h-full object-cover" />
+                    </div>
+                    <div className="absolute -bottom-1 -right-1 w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center">
+                      <Clock className="w-4 h-4 text-accent" />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <a href="https://wa.me/306987041237" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent hover:bg-gold-light text-accent-foreground px-5 py-2.5 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 font-medium text-sm mb-4">
+                    <MessageCircle className="w-5 h-5" />
+                    {t.selection.arrivalNotice.shareArrival}
+                  </a>
+                  <h3 className="font-display text-xl sm:text-2xl font-semibold text-foreground mb-3 flex items-center gap-2">
+                    {t.selection.arrivalNotice.title}
+                    <Heart className="w-5 h-5 text-accent fill-accent/30" />
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed mb-3">
+                    {t.selection.arrivalNotice.message}
+                  </p>
+                  <p className="text-foreground font-medium">
+                    {t.selection.arrivalNotice.closing}
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* WiFi */}
             <div className="bg-card rounded-2xl p-6 luxury-border luxury-shadow animate-fade-in-up">
               <div className="flex items-center gap-3 mb-4">
@@ -143,15 +153,9 @@ const ApartmentDetail: React.FC = () => {
               </div>
               <ul className="space-y-3">
                 {t.manual.appliances.items.map((item, index) => {
-                  let displayItem = item;
-                  if (isMaxima && item === "Underfloor heating & air conditioning") {
-                    displayItem = "Environmental friendly heating and 4 units of air conditioning";
-                  } else if (isMaxima && item === "Ενδοδαπέδια θέρμανση & κλιματισμός") {
-                    displayItem = "Φιλική προς το περιβάλλον θέρμανση και 4 μονάδες κλιματισμού";
-                  }
                   return <li key={index} className="flex items-start gap-3 text-muted-foreground font-sans">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                    {displayItem}
+                    {item}
                   </li>;
                 })}
               </ul>
@@ -170,11 +174,9 @@ const ApartmentDetail: React.FC = () => {
                     <h4 className="font-semibold font-sans">{t.manual.climate.heating.title}</h4>
                   </div>
                   <p className="text-muted-foreground text-sm font-sans">
-                    {isMaxima ? t.manual.climate.heating.description : (
-                      t.manual.climate.heating.description
+                    {t.manual.climate.heating.description
                         .replace('an eco heating system', 'an underfloor heating system')
-                        .replace('ενός οικολογικού συστήματος θέρμανσης', 'του συστήματος ενδοδαπέδιας θέρμανσης')
-                    )}
+                        .replace('ενός οικολογικού συστήματος θέρμανσης', 'του συστήματος ενδοδαπέδιας θέρμανσης')}
                   </p>
                 </div>
                 {/* Cooling */}
@@ -230,7 +232,7 @@ const ApartmentDetail: React.FC = () => {
         </section>
 
         {/* Building Features Section */}
-        <SectionBanner image={isMaxima ? maximaBuildingImg : liviaBuildingImg} label={t.building.title} onClick={() => scrollToSection('building')} />
+        <SectionBanner image={liviaBuildingImg} label={t.building.title} onClick={() => scrollToSection('building')} />
         <section id="building" className="mb-16 scroll-mt-36">
 
           <div className="space-y-6">
@@ -252,7 +254,7 @@ const ApartmentDetail: React.FC = () => {
         </section>
 
         {/* Activities Section */}
-        <SectionBanner image={isMaxima ? maximaActivitiesImg : liviaActivitiesImg} label={t.explore.activities.title} onClick={() => scrollToSection('activities')} />
+        <SectionBanner image={liviaActivitiesImg} label={t.explore.activities.title} onClick={() => scrollToSection('activities')} />
         <section id="activities" className="mb-16 scroll-mt-36">
           <p className="text-muted-foreground text-center mb-8">{t.explore.activities.subtitle}</p>
 
@@ -291,7 +293,7 @@ const ApartmentDetail: React.FC = () => {
         </section>
 
         {/* Explore Section */}
-        <SectionBanner image={isMaxima ? maximaExploreImg : liviaExploreImg} label={t.explore.title} onClick={() => scrollToSection('explore')} />
+        <SectionBanner image={liviaExploreImg} label={t.explore.title} onClick={() => scrollToSection('explore')} />
         <section id="explore" className="scroll-mt-36">
           <p className="text-muted-foreground text-center mb-8">{t.explore.subtitle}</p>
 

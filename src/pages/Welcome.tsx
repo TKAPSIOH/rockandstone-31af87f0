@@ -52,7 +52,7 @@ const Welcome: React.FC = () => {
         </p>
 
         {/* CTA Button */}
-        <button onClick={() => navigate('/select')} className="group relative bg-accent hover:bg-gold-light text-accent-foreground px-10 py-4 rounded-full font-body font-semibold text-lg transition-all duration-300 hover:scale-105 luxury-shadow animate-fade-in-up" style={{
+        <button onClick={() => navigate('/apartment/livia')} className="group relative bg-accent hover:bg-gold-light text-accent-foreground px-10 py-4 rounded-full font-body font-semibold text-lg transition-all duration-300 hover:scale-105 luxury-shadow animate-fade-in-up" style={{
         animationDelay: '0.4s'
       }}>
           {t.welcome.cta}
