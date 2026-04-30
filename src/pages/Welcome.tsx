@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ChevronDown } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import LanguageToggle from '@/components/LanguageToggle';
-import buildingImage from '@/assets/building.jpg';
+import heroRoomImage from '@/assets/hero-room.jpg';
 import trueBlueLogo from '@/assets/trueblue-logo.png';
 const Welcome: React.FC = () => {
   const navigate = useNavigate();
@@ -14,8 +14,8 @@ const Welcome: React.FC = () => {
       {/* Full-screen background image */}
       <div className="absolute inset-0">
         <img
-        src={buildingImage}
-        alt="Palazzo di Meteora Entrance"
+        src={heroRoomImage}
+        alt="Palazzo di Meteora stone living room"
         className="w-full h-full object-cover" />
 
         {/* Dark overlay for text readability */}
