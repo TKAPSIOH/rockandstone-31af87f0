@@ -98,16 +98,11 @@ const ApartmentSelection: React.FC = () => {
         </div>
 
         {/* Apartment Cards */}
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid gap-8 max-w-md mx-auto">
           <div className="animate-fade-in-up" style={{
           animationDelay: '0.1s'
         }}>
             <ApartmentCard id="livia" imagePlaceholder="Livia Apartment Image" />
-          </div>
-          <div className="animate-fade-in-up" style={{
-          animationDelay: '0.2s'
-        }}>
-            <ApartmentCard id="maxima" imagePlaceholder="Maxima Apartment Image" />
           </div>
         </div>
       </main>
