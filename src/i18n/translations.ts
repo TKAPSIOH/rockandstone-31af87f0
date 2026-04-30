@@ -90,8 +90,8 @@ export const translations = {
       title: "Building Amenities",
       parking: {
         title: "Private Parking",
-        description: "Rock & Stone offers a free and open parking area enough for many cars. You may enter directly the parking area driving through a small alley in the side of the building.",
-        instructions: "IMPORTANT NOTE: We kindly expect from you not to block the alley, other guests may find it disturbing.",
+        description: "Rock & Stone offers a free parking area enough for 2 cars. You may enter directly the parking area driving 20 meters after the house entrance.",
+        instructions: "IMPORTANT NOTE: We kindly expect from you not to block the alley, other residents may find it disturbing.",
       },
       legacy: {
         title: "The building",
