@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Palazzo di Meteora - Luxury Boutique Hotel Design System */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap');
+
+@layer base {
+  :root {
+    /* Luxury Color Palette */
+    --background: 40 20% 98%;
+    --foreground: 220 50% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 50% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 50% 10%;
+
+    /* Deep Royal Blue - Primary */
+    --primary: 225 100% 20%;
+    --primary-foreground: 40 30% 95%;
+
+    /* Gold Accent */
+    --accent: 43 74% 49%;
+    --accent-foreground: 220 50% 10%;
+
+    --secondary: 220 30% 94%;
+    --secondary-foreground: 225 100% 20%;
+
+    --muted: 40 20% 96%;
+    --muted-foreground: 220 20% 45%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 20% 88%;
+    --input: 40 20% 88%;
+    --ring: 225 100% 20%;
+
+    --radius: 0.5rem;
+
+    /* Custom Luxury Variables */
+    --gold: 43 74% 49%;
+    --gold-light: 43 74% 70%;
+    --royal-blue: 225 100% 20%;
+    --royal-blue-light: 225 60% 35%;
+    --cream: 40 30% 95%;
+    --cream-dark: 40 20% 90%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 50% 8%;
+    --foreground: 40 30% 95%;
+
+    --card: 220 50% 12%;
+    --card-foreground: 40 30% 95%;
+
+    --popover: 220 50% 12%;
+    --popover-foreground: 40 30% 95%;
+
+    --primary: 43 74% 49%;
+    --primary-foreground: 220 50% 10%;
+
+    --accent: 43 74% 49%;
+    --accent-foreground: 220 50% 10%;
+
+    --secondary: 220 40% 18%;
+    --secondary-foreground: 40 30% 95%;
+
+    --muted: 220 40% 18%;
+    --muted-foreground: 40 20% 65%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 40% 20%;
+    --input: 220 40% 20%;
+    --ring: 43 74% 49%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
+
+@layer components {
+  .luxury-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--royal-blue-light)) 100%);
+  }
+
+  .gold-text {
+    color: hsl(var(--gold));
+  }
+
+  .gold-gradient-text {
+    background: linear-gradient(135deg, hsl(var(--gold)) 0%, hsl(var(--gold-light)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glass-card {
+    background: hsla(0, 0%, 100%, 0.9);
+    backdrop-filter: blur(12px);
+    border: 1px solid hsla(var(--gold), 0.2);
+  }
+
+  .luxury-shadow {
+    box-shadow: 0 20px 60px -15px hsla(var(--primary), 0.25);
+  }
+
+  .luxury-border {
+    border: 1px solid hsl(var(--gold) / 0.3);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--cream));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.5);
+}
