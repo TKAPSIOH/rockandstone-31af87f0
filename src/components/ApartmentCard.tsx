@@ -2,10 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import liviaImage from '@/assets/livia.jpg';
-import maximaCardImage from '@/assets/maxima-card.jpg';
 
 interface ApartmentCardProps {
-  id: 'livia' | 'maxima';
+  id: 'livia';
   imagePlaceholder: string;
 }
 
@@ -21,7 +20,7 @@ const ApartmentCard: React.FC<ApartmentCardProps> = ({ id, imagePlaceholder }) =
       {/* Image */}
       <div className="relative h-48 sm:h-56 overflow-hidden">
         <img 
-          src={id === 'livia' ? liviaImage : maximaCardImage} 
+          src={liviaImage} 
           alt={apartment.name} 
           className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
         />
