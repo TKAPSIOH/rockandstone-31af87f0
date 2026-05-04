@@ -249,7 +249,7 @@ export const translations = {
           {
             name: "Market In",
             type: "Supermarket",
-            description: "Xatzipetrou and Kondili corner, 50m",
+            description: "G. Rammidi 14 street, town center",
           },
           {
             name: "Sklavenitis",
