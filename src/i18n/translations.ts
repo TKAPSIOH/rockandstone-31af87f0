@@ -254,7 +254,7 @@ export const translations = {
           {
             name: "Sklavenitis",
             type: "Supermarket",
-            description: "G. Rammidi 14 street, 150m",
+            description: "G. Rammidi 14 street, town center",
           },
         ],
       },
