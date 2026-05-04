@@ -110,7 +110,7 @@ export const translations = {
           distance: "2.5 km",
           difficulty: "Moderate",
           duration: "1.5 hours",
-          description: "Famous for its appearance in James Bond's 'For Your Eyes Only'. Features 140 steps carved into the rock. Best visited early morning for stunning photography.",
+          description: "Catch it just above the house. Famous for its appearance in James Bond's 'For Your Eyes Only'. Features 140 steps carved into the rock. Best visited early morning for stunning photography.",
           tips: "Bring water and sunglasses! Normal trail shoes are ok. Difficulty level medium.",
           link: "https://meteoratrails.com/tour/m6-kalampaka-byzantine-church-holy-trinity-monastery-trail/",
         },
