@@ -59,7 +59,7 @@ export const translations = {
         title: "Heating & Cooling",
         heating: {
           title: "Heating",
-          description: "Central heating during winter is available throughout a 2-zone and strong heating system. The only thing you have to do is to adjust the desired temperature in the control panel and press ok. This system produces also hot water 24h, when you just open the faucet, nothing more.",
+          description: "Central heating during winter is available throughout a 2-zone strong system. The only thing you have to do is to adjust the desired temperature in the control panels in the living room and upstairs. This system produces also hot water 24h, you just need to open the faucet, nothing more.",
         },
         cooling: {
           title: "Cooling",
