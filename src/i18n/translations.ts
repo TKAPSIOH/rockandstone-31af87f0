@@ -538,7 +538,7 @@ export const translations = {
           {
             name: "Σκλαβενίτης",
             type: "Σούπερ Μάρκετ",
-            description: "Γ. Ραμμίδη 14, 150μ",
+            description: "Γ. Ραμμίδη 14, κέντρο πόλης",
           },
         ],
       },
