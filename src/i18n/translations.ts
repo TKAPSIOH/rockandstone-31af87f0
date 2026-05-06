@@ -394,7 +394,7 @@ export const translations = {
           distance: "2,5 χλμ",
           difficulty: "Μέτρια",
           duration: "1,5 ώρες",
-          description: "Διάσημο από την εμφάνισή του στο James Bond 'For Your Eyes Only'. Διαθέτει 140 σκαλοπάτια λαξευμένα στο βράχο. Καλύτερα να επισκεφθείτε νωρίς το πρωί.",
+          description: "Ξεκινάει 100μ. πιο πάνω από το σπίτι. Διάσημο από την εμφάνισή του στο James Bond 'For Your Eyes Only'. Διαθέτει 140 σκαλοπάτια λαξευμένα στο βράχο. Καλύτερα να επισκεφθείτε νωρίς το πρωί.",
           tips: "Φέρτε νερό και γυαλιά ηλίου! Κανονικά παπούτσια πεζοπορίας είναι εντάξει. Επίπεδο δυσκολίας μέτριο.",
           link: "https://meteoratrails.com/tour/m6-kalampaka-byzantine-church-holy-trinity-monastery-trail/",
         },
