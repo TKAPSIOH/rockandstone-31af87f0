@@ -344,7 +344,7 @@ const ApartmentDetail: React.FC = () => {
                     {t.explore.hiking.stStephen.duration}
                   </span>
                 </div>
-                <p className="text-muted-foreground mb-4">{t.explore.hiking.stStephen.description}</p>
+                {t.explore.hiking.stStephen.description && <p className="text-muted-foreground mb-4">{t.explore.hiking.stStephen.description}</p>}
                 <div className="bg-primary/5 rounded-xl p-4 mb-4">
                   <p className="text-sm text-foreground">💡 {t.explore.hiking.stStephen.tips}</p>
                 </div>
