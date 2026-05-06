@@ -335,15 +335,7 @@ const ApartmentDetail: React.FC = () => {
               {/* St Stephen */}
               <div className="bg-card rounded-2xl p-6 luxury-border luxury-shadow animate-fade-in-up">
                 <h4 className="font-display text-xl font-semibold mb-2">{t.explore.hiking.stStephen.name}</h4>
-                <div className="flex flex-wrap gap-3 mb-4">
-                  
-                  <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs">
-                    {t.explore.hiking.stStephen.difficulty}
-                  </span>
-                  <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-xs">
-                    {t.explore.hiking.stStephen.duration}
-                  </span>
-                </div>
+                
                 {t.explore.hiking.stStephen.description && <p className="text-muted-foreground mb-4">{t.explore.hiking.stStephen.description}</p>}
                 <div className="bg-primary/5 rounded-xl p-4 mb-4">
                   <p className="text-sm text-foreground">💡 {t.explore.hiking.stStephen.tips}</p>
