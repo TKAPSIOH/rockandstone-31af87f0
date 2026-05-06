@@ -533,7 +533,7 @@ export const translations = {
           {
             name: "Market In",
             type: "Σούπερ Μάρκετ",
-            description: "Χατζηπέτρου και Κονδύλη γωνία, 50μ",
+            description: "Χατζηπέτρου και Κονδύλη γωνία, κέντρο πόλης",
           },
           {
             name: "Σκλαβενίτης",
